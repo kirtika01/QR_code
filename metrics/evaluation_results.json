@@ -1,0 +1,73 @@
+{
+    "model_comparison": {
+        "accuracy": {
+            "traditional_ml": 0.975,
+            "deep_learning": 1.0
+        },
+        "precision": {
+            "traditional_ml": 0.9523809523809523,
+            "deep_learning": 0.0
+        },
+        "recall": {
+            "traditional_ml": 1.0,
+            "deep_learning": 0.0
+        },
+        "f1_score": {
+            "traditional_ml": 0.975609756097561,
+            "deep_learning": 0.0
+        },
+        "specificity": {
+            "traditional_ml": 0.95,
+            "deep_learning": 0.0
+        },
+        "sensitivity": {
+            "traditional_ml": 1.0,
+            "deep_learning": 0.0
+        },
+        "roc_auc": {
+            "traditional_ml": 1.0,
+            "deep_learning": NaN
+        }
+    },
+    "individual_results": {
+        "traditional_ml": {
+            "accuracy": 0.975,
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "sensitivity": 1.0,
+            "specificity": 0.95,
+            "f1_score": 0.975609756097561,
+            "roc_auc": 1.0,
+            "false_positive_rate": 0.05,
+            "false_negative_rate": 0.0,
+            "balanced_accuracy": 0.975,
+            "confusion_matrix": [
+                [
+                    19,
+                    1
+                ],
+                [
+                    0,
+                    20
+                ]
+            ]
+        },
+        "deep_learning": {
+            "accuracy": 1.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "sensitivity": 0.0,
+            "specificity": 0.0,
+            "f1_score": 0.0,
+            "roc_auc": NaN,
+            "false_positive_rate": 0.0,
+            "false_negative_rate": 0.0,
+            "balanced_accuracy": 0.0,
+            "confusion_matrix": [
+                [
+                    40
+                ]
+            ]
+        }
+    }
+}
